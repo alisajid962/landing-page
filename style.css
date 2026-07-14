@@ -31,3 +31,38 @@ header>h1{
      font-size: x-large;
 
 }
+.nav-ul>li{
+    border-right: 2px solid white;
+    padding: 0px 20px;
+}
+
+.nav-ul>li:last-child{
+    border-right:none;
+}
+
+@media (max-width:768px) {
+    .nav-ul{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     column-gap: 5%;
+     column-width: 2px;
+     column-rule-color: blueviolet;
+     margin-top: 10px;
+     list-style: none;
+     color: white;
+     text-shadow: 6px 6px 20px white ;
+     font-size: x-large;
+
+}
+.header{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-ul>li{
+    border-right: 2px solid white;
+    padding: 0px 8px;
+}
+}
