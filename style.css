@@ -27,13 +27,19 @@ header>h1{
      margin-top: 10px;
      list-style: none;
      color: white;
-     text-shadow: 6px 6px 20px white ;
+     /* text-shadow: 6px 6px 20px white ; */
+     text-shadow: 10 10 8px rgba(255, 255, 255, 0.4);
      font-size: x-large;
 
 }
 .nav-ul>li{
     border-right: 2px solid white;
     padding: 0px 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.nav-ul li:hover{
+    color: #3B82F6;
 }
 
 .nav-ul>li:last-child{
